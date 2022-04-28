@@ -1,133 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!--my Css-->
-    <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BootStrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- My CSS-->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- fontawesome-->
+  <script src="https://kit.fontawesome.com/977c7bfdff.js" crossorigin="anonymous"></script>
+  <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#About">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Resume">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Project">Project</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<!-- Landing Section -->
 <section id="Landing">
-    <div class="intro">
-        <h1>zachary williams</h1>
-        <p>Full-Stack Web Developer</p>
-        <a href=""><button>About me</button></a>
-    </div>
+  <h1>ZACHARY WILLIAMS</h1>
+  <p>Full-Stack Web Developer</p>
+  <a href="#About"><button>ABOUT ME</button></a>
 </section>
+<!-- End of Landing -->
+<!-- Nav-Bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ZACHARY</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Landing">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Resume">RESUME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Project">PROJECT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End of Nav-Bar-->
+<!-- Social Links-->
+<section id="social-icons">
+  <a class="social-icon" target="_blank" href="">
+      <i class="fa-brands fa-github"></i>
+  </a>
+  <a class="social-icon" target="_blank" href="">
+      <i class="fa-brands fa-linkedin"></i>
+  </a>
+  <a class="social-icon" target="_blank" href="">
+      <i class="fa-solid fa-envelope"></i>
+  </a>
+</section>
+<!-- About Section-->
 <section id="About">
-    <div class="container">
-        <div class="row">
-          <div class="col-6 col-sm-4">
-              <img class="Hero_img" src="./images/Zachary (2).JPG" alt="">
-            </div>
-          <div class="col-6 col-sm-4">
-              <h1>Heading</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nam dolorem veritatis molestias vero cum, totam provident libero, aperiam fugiat corrupti iste placeat sapiente aut fuga nobis esse eos sequi.</p>
-              <div class="container">
-                <div class="row">
-                  <div class="col-6 col-sm-4">
-                      <ul>
-                          <li>Happy Clients consequuntur voluptas nostrum aliquid ipsam architecto ut.</li>
-                          <li>Years of experience aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</li>
-                      </ul>
-                    </div>
-                  <div class="col-6 col-sm-4">
-                      <ul>
-                          <li>Projects adipisci atque cum quia aspernatur totam laudantium et quia dere tan</li>
-                          <li>Projects adipisci atque cum quia aspernatur totam laudantium et quia dere tan</li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-            </div>
+  <h1>ABOUT ME</h1>
+  <div class="container" class=".bg-light">
+    <div class="row">
+      <div class="col-6 col-sm-3">
+        <div class="image_img">
+          <img  src="./images/Zachary (2).JPG" alt="">
         </div>
       </div>
+      <div class="col-6 col-sm-3">
+        <div class="about_description">
+          <h2>Full-Stack Web Developer</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eius. Aliquid quisquam obcaecati natus repudiandae fuga soluta neque aperiam. Eligendi suscipit totam molestias ex cumque ducimus blanditiis dolorem autem minus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+<!-- End OfAbout Section-->
+<!-- Skills Section-->
 <section id="Skills">
-    <h1>Skills</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptatibus veniam minima quo sit, porro temporibus amet ab illum laborum. Placeat nisi impedit doloremque ipsa, dolor minus non officia iusto.
-    </p>
-    <div class="container">
+<div class="intro">
+  <h1>SKILLS</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consectetur error quibusdam deserunt illum veniam. Qui impedit rerum consequuntur alias quasi? Totam, molestiae exercitationem. Inventore esse dolore quibusdam architecto a.</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-6 col-sm-3">
+      <div class="skills-title">
+        <h3>HTML</h3>
+        <p>100%</p>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="skills-title justify-content-between">
+        <h3>CSS</h3>
+        <p>100%</p>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="skills-title">
+        <h3>Javascript</h3>
+        <p>100%</p>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-3">
+      <div class="skills-title">
+        <div class="skills-title">
+          <h3>NODE.JS</h3>
+          <p>100%</p>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="skills-title">
+          <h3>VUE</h3>
+          <p>100%</p>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="skills-title">
+          <h3>DATABASE</h3>
+          <p>100%</p>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- End Of Skills Section-->
+<!-- Resume Section-->
+<section id="Resume">
+  <div class="intro">
+    <h1>RESUME</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem praesentium odit velit deleniti consequatur perferendis dolorem? Culpa veritatis dolore aperiam delectus odio possimus maiores, commodi sit, autem id exercitationem ipsa!</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-sm-3">
+        <div class="card">
+          <h2>Summary</h2>
+          <h6>Zachary Williams</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga sequi cupiditate illum aspernatur, ut reprehenderit nobis quisquam reiciendis consectetur, autem magnam, quaerat cum distinctio? Explicabo aliquid tempore ullam unde.</p>
+        </div>
+        <div class="card">
+          <h2>Education</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga sequi cupiditate illum aspernatur, ut reprehenderit nobis quisquam reiciendis consectetur, autem magnam, quaerat cum distinctio? Explicabo aliquid tempore ullam unde.</p>
+        </div>
+        <div class="card">
+          <h2>Professional Experience</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga sequi cupiditate illum aspernatur, ut reprehenderit nobis quisquam reiciendis consectetur, autem magnam, quaerat cum distinctio? Explicabo aliquid tempore ullam unde.</p>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3">
+        <div class="card">
+          <h2>Skills</h2>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga sequi cupiditate illum aspernatur, ut reprehenderit nobis quisquam reiciendis consectetur, autem magnam, quaerat cum distinctio? Explicabo aliquid tempore ullam unde.</p>
+        </div>
+        <div class="card">
+          <h2>Accomplishment</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga sequi cupiditate illum aspernatur, ut reprehenderit nobis quisquam reiciendis consectetur, autem magnam, quaerat cum distinctio? Explicabo aliquid tempore ullam unde.</p>
+        </div>
+        <div class="card">
+          <h2>Hobbies</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga sequi cupiditate illum aspernatur, ut reprehenderit nobis quisquam reiciendis consectetur, autem magnam, quaerat cum distinctio? Explicabo aliquid tempore ullam unde.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Of Resume Section-->
+<!-- Project Section-->
+<section id="Project">
+  <div class="intro">
+    <h1>PROJECT</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum inventore ullam assumenda exercitationem velit sapiente alias, placeat accusamus. Suscipit expedita amet modi accusamus tempora impedit rerum neque aspernatur, facere sapiente!</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col order-last">
+        <div class="image">
+          <img class="image__img" src="./images/edho-pratama-T6fDN60bMWY-unsplash.jpg" alt="">
+          <div class="image__overlay">
+              <div class="image__title">
+                  <h3>Portfolio</h3>
+              </div>
+              <div class="image__btn">
+                  <button>Live</button>
+                  <button>Github</button>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="col">
+        <div class="image">
+          <img class="image__img" src="./images/annie-spratt-r_m-JKJVto0-unsplash.jpg" alt="">
+          <div class="image__overlay">
+              <div class="image__title">
+                  <h3>Calculator</h3>
+              </div>
+              <div class="image__btn">
+                  <button>Live</button>
+                  <button>Github</button>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="col order-first">
+        <div class="image">
+          <img class="image__img" src="./images/suhyeon-choi-tTfDMaRq-FE-unsplash.jpg" alt="">
+          <div class="image__overlay">
+              <div class="image__title">
+                  <h3>Travel Agency Site</h3>
+              </div>
+              <div class="image__btn">
+                  <button>Live</button>
+                  <button>Github</button>
+              </div>
+          </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Of Project Section-->
+<!-- Testimony Section-->
+<section id="Testimonial">
+  <div class="intro">
+    <h1>TESTIMONIALS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magnam ex inventore? Sed non totam molestias voluptatem neque officiis, doloremque voluptatibus ipsa architecto incidunt, ullam temporibus dolore accusantium, itaque eos!</p>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="testimonial">
+          <img src="./images/Cameron (5).JPG" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum fuga iusto, inventore nostrum autem, veritatis aliquam velit saepe dignissimos asperiores eaque, rem earum optio iste ea culpa nulla distinctio?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonial">
+          <img src="./images/Chanique (1).JPG" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum fuga iusto, inventore nostrum autem, veritatis aliquam velit saepe dignissimos asperiores eaque, rem earum optio iste ea culpa nulla distinctio?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonial">
+          <img src="./images/Hilmi (2).JPG" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum fuga iusto, inventore nostrum autem, veritatis aliquam velit saepe dignissimos asperiores eaque, rem earum optio iste ea culpa nulla distinctio?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonial">
+          <img src="./images/Tshimologo (2).JPG" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum fuga iusto, inventore nostrum autem, veritatis aliquam velit saepe dignissimos asperiores eaque, rem earum optio iste ea culpa nulla distinctio?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="testimonial">
+          <img src="./images/Sunethia (4).JPG" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum fuga iusto, inventore nostrum autem, veritatis aliquam velit saepe dignissimos asperiores eaque, rem earum optio iste ea culpa nulla distinctio?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Of Testimony Section-->
+<!-- Contact Section-->
+<section id="Contact">
+  <div class="intro">
+    <h1>CONTACT</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus enim a ab nostrum aliquid. Atque numquam totam libero officiis accusantium veniam illum iure commodi consectetur, vel magnam, voluptates doloribus sequi.</p>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-6 col-sm-4">
+      <div class="container">
         <div class="row">
-            <div class="container">
-                <div class="row">
-                  <div class="col-6 col-sm-4">
-                    <div class="progress-title">
-                        <h3>HTML</h3>
-                        <p>100%</p>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <h3>CSS</h3>
-                        <p>100%</p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <h3>JAVASCRIPT</h3>
-                    <p>100%</p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <h3>NODE.JS</h3>
-                    <p>100%</p>
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h3>VUE</h3>
-                    <p>100%</p>
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h3>DATABASE</h3>
-                    <p>100%</p>
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-                </div>
-                </section>
-                <section id="Resume">
-                    <h1>Resume</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio debitis vero fugiat culpa temporibus laudantium, accusamus sequi consequatur excepturi voluptas sint delectus? Consequatur odio dolorum reprehenderit inventore possimus neque officiis.</p>
-
-                </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          <div class="col">
+           <div class="card">
+             <div class="card-icon"></div>
+             <div class="card-icon-descrip">
+              <h6>Location:</h6>
+              <p>10 penisula jupiter pluto</p>
+             </div>
+           </div>
+          </div>
+          <div class="col order-5">
+            <div class="card">
+              <div class="card-icon"></div>
+              <div class="card-icon-descrip">
+                <h6>Email:</h6>
+                <p>williamszachary787@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col order-1">
+            <div class="card">
+              <div class="card-icon"></div>
+              <div class="card-icon-descrip">
+                <h6>Call:</h6>
+                <p>073-836-4454</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-4">
+      <div class="contacts-container">
+        <form class="contacts-form" action="https://formspree.io/f/mvolwweo" method="POST">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <button class="contact-input" type="submit">Send</button>
+        </form>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- End Of Contact Section-->
+<footer class="bg-dark">
+<p>© Copyright Zachary. All Rights Reserved</p>
+<p>Designed by Zachary Williams
+</p>
+</footer>
+<!-- BootStrap Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
