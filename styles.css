@@ -121,7 +121,7 @@ button:hover {
 }
 li {
     line-height: 1.5;
-    list-style-type: square;
+    
 }
 
 /* Skills Section*/
@@ -134,7 +134,11 @@ li {
     align-items: center;
     
 }
-
+div.skills-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 #Skills h1{
 font-size: 4rem;
 text-align: center;
