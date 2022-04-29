@@ -338,9 +338,11 @@ div.mb-3 {
 .col-sm-4 {
     width: 50%;
 }
-.carousel-indicator {
+.carousel-indicators {
     margin-top: 50px;
+    background-color: lightslategray;
 }
+
 /* footer */
 footer {
     color: white;
