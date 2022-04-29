@@ -10,11 +10,13 @@
   <link rel="stylesheet" href="./styles.css">
   <!-- fontawesome-->
   <script src="https://kit.fontawesome.com/977c7bfdff.js" crossorigin="anonymous"></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
 <!-- Landing Section -->
-<section id="Landing">
+<section id="Landing" data-aos="flip-right">
   <h1>ZACHARY WILLIAMS</h1>
   <p>Full-Stack Web Developer</p>
   <a href="#About"><button>ABOUT ME</button></a>
@@ -51,13 +53,13 @@
 <!-- End of Nav-Bar-->
 <!-- Social Links-->
 <section id="social-icons">
-  <a class="social-icon" target="_blank" href="">
+  <a class="social-icon" target="_blank" href="https://github.com/Willzi3">
       <i class="fa-brands fa-github"></i>
   </a>
-  <a class="social-icon" target="_blank" href="">
+  <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/zachary-williams-b3388a237/">
       <i class="fa-brands fa-linkedin"></i>
   </a>
-  <a class="social-icon" target="_blank" href="">
+  <a class="social-icon" target="_blank" href="williamszachary787@gmail.com">
       <i class="fa-solid fa-envelope"></i>
   </a>
 </section>
@@ -67,12 +69,12 @@
   <div class="container" class=".bg-light">
     <div class="row">
       <div class="col-6 col-sm-3">
-        <div class="image_img">
+        <div class="image_img data-aos=flip-right">
           <img  src="./images/Zachary (2).JPG" alt="">
         </div>
       </div>
       <div class="col-6 col-sm-3">
-        <div class="about_description">
+        <div class="about_description data-aos=flip-right">
           <h2>Full-Stack Web Developer</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eius. Aliquid quisquam obcaecati natus repudiandae fuga soluta neque aperiam. Eligendi suscipit totam molestias ex cumque ducimus blanditiis dolorem autem minus.</p>
         </div>
@@ -301,7 +303,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-           <div class="card">
+           <div class="card data-aos=fade-up">
              <div class="card-icon"></div>
              <div class="card-icon-descrip">
               <h6>Location:</h6>
@@ -362,5 +364,10 @@
 </footer>
 <!-- BootStrap Javascript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

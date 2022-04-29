@@ -16,7 +16,7 @@
     position: fixed;
     z-index: 90;
     right: 2%;
-    bottom: 10%;
+    bottom: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,16 +97,15 @@ button:hover {
 .image_img img {
     width: 500px;
     height: 500px;
-    border: 12px solid black;
+    
     border-radius: 50%;
 }
 
 .about_description {
     text-align: center;
-    border: 10px solid black;
     max-width: 500px;
     height: 500px;
-    border-radius: 50%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,12 +260,17 @@ text-align: center;
 #Testimonial h1{
     font-size: 4rem;
     text-align: center;
+    margin-bottom: 30px;
     }
 .testimonial img {
     width: 150px;
     height: 150px;
-    margin-left: 50%;
+    margin-left: 45%;
     border-radius: 50%;
+    }
+
+    .testimonial p {
+        padding: 0 30%;
     }
 
 /* Contact Section */
@@ -415,6 +419,11 @@ footer {
     img.image__img {
         width: 200px;
         height: 200px;
-        
+    }
+    #Landing h1 {
+        font-size: 3rem;
+    }
+    #Landing p{
+        font-size: 18px;
     }
 }
