@@ -272,7 +272,9 @@ text-align: center;
     margin-left: 45%;
     border-radius: 50%;
     }
-
+.testimonial h3{
+    text-align: center;
+}
     .testimonial p {
         padding: 0 30%;
     }
