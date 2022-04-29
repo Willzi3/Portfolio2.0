@@ -338,6 +338,9 @@ div.mb-3 {
 .col-sm-4 {
     width: 50%;
 }
+.carousel-indicator {
+    margin-top: 50px;
+}
 /* footer */
 footer {
     color: white;
@@ -384,6 +387,16 @@ footer {
     }
     .card p {
         font-size: 10px;
+    }
+    .card {
+        max-height: 150px;
+    }
+    .card li {
+        font-size: 10px;
+    }
+    .card h2 {
+        font-size: 1rem;
+        
     }
 }
 @media (max-width: 992px) {
